@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFFFFF</color> <!-- Pink pastel -->
+    <color name="colorPrimaryDark">#FFFFFF</color> <!-- Lighter pink pastel -->
+    <color name="colorAccent">#287101</color> <!-- Green -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorTextPrimary">#212121</color> <!-- Black -->
+    <color name="colorTextSecondary">#000000</color> <!-- Grey -->
+    <color name="colorSurface">#FFFFFF</color> <!-- White -->
+    <color name="favBackground">#F40333</color><!-- Red -->
+    <color name="backgroudColor">#FFFFFF</color> <!-- White -->
+
+
+    <color name="darkPrimary">#255909</color> <!-- Dark green -->
+    <color name="primaryDark">#66D219</color> <!-- Bright green -->
+    <color name="darkAccent">#1A4901</color> <!-- Darker green -->
+    <color name="darkBackground">#121212</color> <!-- Dark grey -->
+    <color name="darkTextPrimary">#FFFFFF</color> <!-- White -->
+    <color name="darkTextSecondary">#BDBDBD</color> <!-- Light grey -->
+    <color name="darkSurface">#212121</color> <!-- Dark grey -->
+    <color name="cardBackgroundColor">#ffffff</color> <!-- White -->
+    <color name="usernameColor">#000000</color> <!-- Black -->
+</resources>

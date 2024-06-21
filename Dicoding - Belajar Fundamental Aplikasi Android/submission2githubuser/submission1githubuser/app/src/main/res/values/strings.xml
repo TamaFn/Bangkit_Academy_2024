@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BFAA 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_tab_home">Welcome Home</string>
+    <string name="content_tab_profile">Change your Profile here</string>
+
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Followings</string>
+    <string name="tab_text_3">Setting</string>
+
+    <string name="followingNone">Tidak ada Followings</string>
+    <string name="followerNone">Tidak ada Followers</string>
+    <string name="userNone">Tidak ada akun dengan user tersebut, silahkan cari lagi..</string>
+    <string name="username">Username\n</string>
+    <string name="url">http://github.com\n</string>
+    <string name="repository">Repository</string>
+    <string name="followers">Followers</string>
+    <string name="followings">Followings</string>
+    <string name="https_github_com_firefly">https://github.com/firefly</string>
+    <string name="UsernameDetail">FireFly</string>
+    <string name="repositorys">Repository</string>
+    <string name="countfollower">30</string>
+    <string name="countrepo">30</string>
+    <string name="countfollowing">30</string>
+    <string name="hint">Masukkan Username</string>
+
+    <string name="favoriteactivity">Activity Favorite</string>
+    <string name="FavoriteIcon">My Favorite\n</string>
+    <string name="userFavoriteNone">Belum Ada Akun Yang Difavoritekan\n</string>
+    <string name="OnMode">Night Mode On\n</string>
+    <string name="nightmode">Setting Night Mode\n</string>
+    <string name="undo">Undo</string>
+    <string name="deleteFromFav">Is Deleted From Favorite\n</string>
+    <string name="addToFav">Is Added To Favorite</string>
+    <string name="seeFavorite">See Favorite</string>
+    <string name="favoriteUser">Favorite</string>
+    <string name="setting">Dark Theme\n</string>
+    <string name="OffMode">Night Mode Off</string>
+    <string name="icon_favorite">Add Favorite</string>
+
+    <string name="favorite_remove">Removed from favorites</string>
+    <string name="favorite_add">Added to favorites</string>
+
+</resources>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E1D7"
+    tools:context=".DetailActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E4E1D7"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="145dp">
+
+        <ImageView
+            android:id="@+id/char_cover"
+            android:layout_width="440dp"
+            android:layout_height="427dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="233dp"
+            app:layout_constraintBottom_toTopOf="@+id/char_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/bangalore2" />
+
+        <ImageView
+            android:id="@+id/char_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="298dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/char_cover"
+            app:srcCompat="@drawable/bangalore" />
+
+        <TextView
+            android:id="@+id/char_name"
+            android:layout_width="244dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="36dp"
+            android:fontFamily="@font/apex_black"
+            android:text="Bangalore"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/char_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toEndOf="@+id/char_profile"
+            app:layout_constraintTop_toTopOf="@+id/char_profile"
+            app:layout_constraintVertical_bias="0.515" />
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/char_profile"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Gender"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/char_gender"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Female"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Age"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/char_age"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="40"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Homeworld"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/char_homeworld"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Gridiron"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Class"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/char_class"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Assault"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Tactical"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/char_tactical"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Smoke Launcher"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Passive"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/char_passive"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Double Time"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Ultimate"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/char_ultimate"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/apex_bold"
+                    android:text="Rolling Thunder"
+                    android:textSize="20sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/icon_passive"
+            android:layout_width="95dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout3"
+            app:srcCompat="@drawable/bangalorepassive" />
+
+        <TextView
+            android:id="@+id/passive_exp"
+            android:layout_width="116dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/apex_extrabold"
+            android:text="Passive Skill"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_passive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toEndOf="@+id/icon_passive"
+            app:layout_constraintTop_toTopOf="@+id/icon_passive"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/icon_ultimate"
+            android:layout_width="95dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon_tactical"
+            app:srcCompat="@drawable/bangaloreultimate" />
+
+        <ImageView
+            android:id="@+id/icon_tactical"
+            android:layout_width="95dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon_passive"
+            app:srcCompat="@drawable/bangaloretactical" />
+
+        <TextView
+            android:id="@+id/char_passive_desc"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/apex_medium"
+            android:text="Taking fire while sprinting makes you move faster for a brief time"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_passive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toEndOf="@+id/icon_passive"
+            app:layout_constraintTop_toBottomOf="@+id/passive_exp"
+            app:layout_constraintVertical_bias="0.264" />
+
+        <TextView
+            android:id="@+id/char_tactical_decs"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/apex_medium"
+            android:text="Fire a high-velocity smoke canister that explodes into a smoke wall on impact"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_tactical"
+            app:layout_constraintStart_toEndOf="@+id/icon_tactical"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/apex_extrabold"
+            android:text="Tactical Skill"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_tactical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toEndOf="@+id/icon_tactical"
+            app:layout_constraintTop_toTopOf="@+id/icon_tactical"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/apex_extrabold"
+            android:text="Ultimate Skill"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_ultimate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.153"
+            app:layout_constraintStart_toEndOf="@+id/icon_ultimate"
+            app:layout_constraintTop_toTopOf="@+id/icon_ultimate"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/char_ultimate_desc"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/apex_medium"
+            android:text="Call in an artillery strike that slowly creeps across the landscape"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_ultimate"
+            app:layout_constraintStart_toEndOf="@+id/icon_ultimate"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.805"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/apex_logo" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="288dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/apex_logo2" />
+
+        <ImageView
+            android:id="@+id/char_icon_class"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="184dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.791"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/assault_class" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

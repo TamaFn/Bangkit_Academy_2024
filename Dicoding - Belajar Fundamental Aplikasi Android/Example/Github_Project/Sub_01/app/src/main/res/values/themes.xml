@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidBeginner_API" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0ea5e9</item> <!-- Pink pastel -->
+        <item name="colorPrimaryVariant">#0284c7</item> <!-- Lighter pink pastel -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White or light color for contrast -->
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#ADD8E6</item> <!-- Light blue pastel -->
+        <item name="colorSecondaryVariant">#87CEFA</item> <!-- Lighter blue pastel -->
+        <item name="colorOnSecondary">#000000</item> <!-- Black or dark color for contrast -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Night mode -->
+    <style name="Base.Theme.AndroidBeginner_API.Dark" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#8A2BE2</item> <!-- Purple pastel -->
+        <item name="colorPrimaryVariant">#9932CC</item> <!-- Lighter purple pastel -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White or light color for contrast -->
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#20B2AA</item> <!-- Light sea green pastel -->
+        <item name="colorSecondaryVariant">#66CDAA</item> <!-- Lighter sea green pastel -->
+        <item name="colorOnSecondary">#000000</item> <!-- Black or dark color for contrast -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Base.Theme.AndroidBeginner_API.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AndroidBeginner_API" parent="Base.Theme.AndroidBeginner_API" />
+</resources>

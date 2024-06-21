@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IntentApp</string>
+    <string name="move_activity">Pindah Activity 2</string>
+    <string name="move_activity2">Pindah Activity 3</string>
+    <string name="move_with_data">Pindah Activity dengan Data</string>
+    <string name="move_with_object">Pindah Activity dengan Object</string>
+    <string name="dial_number">Dial a Number</string>
+    <string name="move_with_result">Klik Untuk Hasil</string>
+    <string name="result_from_activity">Hasil dari Activity</string>
+    <string name="choose_number">Pilih angka yang kamu suka</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_200">200</string>
+    <string name="choose">Pilih</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="object_received">Object Diterima</string>
+    <string name="this_is_moveactivity">Ini MoveActivity</string>
+    <string name="ini_activity_1">Ini Activity Home</string>
+    <string name="ini_activity_2">Moving Activity Without Data</string>
+    <string name="ini_activity_3">Moving Activity With Data</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="activity_4_using_parcelable">Activity 4 Using Parcelable</string>
+    <string name="activity_test_quiz">Activity Test Quiz</string>
+</resources>
